@@ -81,6 +81,7 @@ html, body {
     height: 100%;
 }
 
+
 body {
     font-family: 'Roboto', sans-serif;
     color: #292f37 !important;
@@ -120,6 +121,18 @@ h6{
 .row {
     margin-right: 0px;
     margin-left: 0px;
+}
+
+
+/* Menu colors */
+#menu-toggle, #to-top{
+	background-color: rgba(67,132,150,0.6);
+}
+#sidebar-wrapper{
+	background: #438496 !important;
+}
+.sidebar-nav li a {
+    color: #FFF !important;
 }
 
 .btn-dark {
