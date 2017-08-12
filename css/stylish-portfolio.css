@@ -125,7 +125,7 @@ h6{
 
 
 /* Menu colors */
-#menu-toggle, #to-top{
+#menu-toggle, #to-top, #menu-x{
 	background-color: rgba(67,132,150,0.6);
 }
 #sidebar-wrapper{
