@@ -312,7 +312,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-10 col-lg-offset-1 text-center">
-				<h2>Write a review</h2>
+				<h2 class="text-primary">Write a review</h2>
 				<hr class="small">
 				<p class="lead">Please, take some time and add a review. I'd appriciate it :)</p>
 				<ul class="list-inline">
@@ -335,7 +335,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-10 col-lg-offset-1 text-center">
-				<form name="review" class="form-horizontal" action="https://formspree.io/admin@estudio.epizy.com" method="post">
+				<form class="form-horizontal" action="https://formspree.io/admin@estudio.epizy.com" method="post">
 					<fieldset>
 						<!-- Form Name -->
 						<legend>Submit your review</legend>
@@ -382,11 +382,9 @@
 						</div>
 						<!-- Button -->
 						<div class="form-group">
-						  <div class="col-md-4" style="visibility: collapse;">
-						    <button id="submit" class="btn">Send</button>
-						  </div>
+						  <label class="col-md-4 control-label" for="textarea"></label>
 						  <div class="col-md-4">
-						    <a href="#" class="btn btn-dark btn-lg"  onclick="document.review.submit();">Send</a>
+						    <button id="submit" class="btn">Send</button>
 						  </div>
 						</div>
 
