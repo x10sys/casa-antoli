@@ -66,6 +66,9 @@
 .text-primary{
 	color: #CD5360;
 }
+a.text-primary:focus, a.text-primary:hover {
+	color: #9e2935;
+}
 
 a, a:visited{
 	font-weight: 700;
