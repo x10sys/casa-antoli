@@ -27,7 +27,7 @@
 // cache, then increment the CACHE_VERSION value. It will kick off the service worker update
 // flow and the old cache(s) will be purged as part of the activate event handler when the
 // updated service worker is activated.
-var CACHE_VERSION = 7;
+var CACHE_VERSION = 8;
 var CURRENT_CACHES = {
   prefetch: 'prefetch-antoli-v' + CACHE_VERSION
 };
@@ -36,8 +36,10 @@ var CURRENT_CACHES = {
 '.',
 './beaches',
 './restaurants',
+'./danica',
 'index.html',
 'beaches.html',
+'danica.html',
 'maps.html',
 'streetview.html',
 'restaurants.html',
@@ -72,6 +74,7 @@ var CURRENT_CACHES = {
 'img/callout.jpg',
 'img/places-beach.jpg',
 'img/places-culture.jpg',
+'img/places-danica.jpg',
 'img/places-fun.jpg',
 'img/places-restaurant.jpg',
 'img/places-shopping.jpg',
@@ -121,6 +124,7 @@ var CURRENT_CACHES = {
 'img/beaches/zelena_laguna-6.jpg',
 'img/beaches/zelena_laguna-7.jpg',
 'img/beaches/zelena_laguna-8.jpg',
+'img/danica/danica.jpg',
 'img/restaurants/imbiss.jpg',
 'img/restaurants/imbiss-1.jpg',
 'img/restaurants/imbiss-2.jpg',
